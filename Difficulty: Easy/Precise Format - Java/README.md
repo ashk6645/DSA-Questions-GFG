@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/precise-fomat-java/1?page=1&category=Java&sortBy=submissions">Precise Format - Java</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There are times when your answer is a floating point that contains the undesired amount of digits after the decimal. <strong>Here, we'll learn how to get a precise answer out of a floating number</strong>. You are given two <strong>floating numbers a and b</strong>. You need to output<strong> a/b and decimal precision of a/b up to 3 places after the decimal point</strong>.<br><strong>Note: </strong>You may use <span style="color: #2dc26b;"><a style="color: #2dc26b;" href="https://www.geeksforgeeks.org/formatted-output-in-java/">System.out.format()</a></span></span></p>
+<p><strong><span style="font-size: 18px;">Example 1:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong>
+a = 5.43, b = 2.653</span>
+<span style="font-size: 18px;"><strong>Output:</strong></span>
+<span style="font-size: 18px;">2.0467393 2.047<br><strong>Explanation:<br></strong>a/b and decimal precision of a/b up to 3 places after the decimal point are given.<br></span></pre>
+<p><strong><span style="font-size: 18px;">Example 2:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> <br>a = 3.25, b = 2.5</span><br><span style="font-size: 18px;"><strong>Output:</strong></span> <br><span style="font-size: 18px;">1.3 1.300</span><br><span style="font-size: 18px;"><strong>Explanation:<br></strong>a/b and decimal precision of a/b up to 3 places after the decimal point are given.</span></pre>
+<p><span style="font-size: 18px;"><strong>User Task:</strong></span></p>
+<pre><span style="font-size: 18px;">Your task is to complete the provided function <strong>printInFormat()</strong>.<br>Note: You don't need to give a new line character after using System.out.format().</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(1)<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= a, b &lt;= 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;
