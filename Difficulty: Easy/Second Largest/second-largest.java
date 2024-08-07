@@ -28,22 +28,17 @@ public class Main {
 
 // User function Template for Java
 
-class Solution {
-    public int print2largest(List<Integer> arr) {
+class Solution 
+{
+    public int print2largest(List<Integer> arr) 
+    {
         // Code Here
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-
-        for (int num : arr) {
-            if (num > largest) {
-                secondLargest = largest;
-                largest = num;
-            } else if (num > secondLargest && num != largest) {
-                secondLargest = num;
-            }
+        TreeSet<Integer> sortedSet = new TreeSet<>();
+        for(int i=0;i<arr.size();i++)
+        {
+            sortedSet.add(arr.get(i));
         }
-
-        return secondLargest != Integer.MIN_VALUE ? secondLargest : -1;
-        
+        sortedSet.pollLast();
+        return sortedSet.last();
     }
 }
