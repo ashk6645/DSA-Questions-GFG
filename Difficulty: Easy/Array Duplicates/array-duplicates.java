@@ -46,32 +46,27 @@ class GFG {
 
 
 
-class Solution 
+class Solution
 {
     public static ArrayList<Integer> duplicates(int[] arr)
     {
         // code here
-        Map<Integer, Integer> frequencyMap = new HashMap<>();  //stores frequency of each element
-        
-        ArrayList<Integer> result = new ArrayList<>();  //Initialize the result list
-        
-        for(int num : arr) //Count the frequency of each element
+        int n = arr.length;
+        HashSet<Integer> set = new HashSet<>();
+        Arrays.sort(arr);
+        for(int i=1;i<n;i++)
         {
-            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
-        }
-        
-        for(Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) //add duplicate elements
-        {
-            if(entry.getValue() > 1)
+            if(arr[i]==arr[i-1])
             {
-                result.add(entry.getKey());
+                set.add(arr[i]);
             }
         }
-        
-        if(result.isEmpty())  //if no duplicates
+        if(set.isEmpty())
         {
-            result.add(-1);
+            set.add(-1);
         }
-        return result;
+        ArrayList<Integer> num = new ArrayList<>(set);
+        Collections.sort(num);
+        return num;
     }
 }
