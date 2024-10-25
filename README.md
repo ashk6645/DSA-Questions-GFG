@@ -3,7 +3,7 @@
 A collection of solutions for coding problems from GFG.
 
 ## Table of Contents
-1. [Basic](#basic)
+1. [Basic](#Difficulty: Basic)
 2. [Easy](#easy)
 3. [Medium](#medium)
 4. [Hard](#hard)
