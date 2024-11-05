@@ -3,7 +3,7 @@
 A collection of solutions for coding problems from GFG.
 
 ## Table of Contents
-1. [Basic](#https://github.com/ashk6645/DSA-Questions-GFG/tree/master/Difficulty%3A%20Basic)
+1. Basic(#https://github.com/ashk6645/DSA-Questions-GFG/tree/master/Difficulty%3A%20Basic)
 2. [Easy](#easy)
 3. [Medium](#medium)
 4. [Hard](#hard)
